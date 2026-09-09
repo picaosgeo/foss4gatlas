@@ -1,0 +1,204 @@
+/* ============================================================
+   FOSS4G Atlas — design tokens & UI
+   Artifact 版と同じトークン体系。色は必ずここ経由で参照する。
+   ============================================================ */
+
+:root{
+  /* 面 */
+  --bg:#E8EEF2; --panel:#FFFFFF; --panel-2:#F3F7FA;
+  /* 地図 */
+  --ocean:#D7E3EB; --land:#C4D3C9; --land-line:#A9BCB0; --grat:#B9CAD6;
+  /* 文字 */
+  --ink:#16222E; --ink-2:#4A5C6B; --ink-3:#75879A;
+  /* 罫線 */
+  --line:#C6D3DC; --line-soft:#DDE7EE;
+  --accent:#0B5E7D;
+  /* カテゴリ（Okabe-Ito 由来。色覚多様性に配慮） */
+  --c-origin:#B0509A; --c-global:#C8560A; --c-regional:#C68A00;
+  --c-national:#0A6FA8; --c-paper:#0E8C69; --c-product:#7B5FB0;
+
+  --shadow:0 1px 2px rgba(16,34,46,.07),0 8px 24px -12px rgba(16,34,46,.22);
+  --r:3px;
+  --f-disp:"Archivo","IBM Plex Sans JP",-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --f-body:"IBM Plex Sans JP",-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+/* OS がダークで、明示的な light 指定がないとき */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D151C; --panel:#15202A; --panel-2:#111A23;
+    --ocean:#0F1B25; --land:#25352E; --land-line:#385044; --grat:#1E2C38;
+    --ink:#E3EBF1; --ink-2:#9DAEBC; --ink-3:#728595;
+    --line:#243441; --line-soft:#1B2833;
+    --accent:#5FC2E8;
+    --c-origin:#E285CB; --c-global:#F5893C; --c-regional:#EFBB3C;
+    --c-national:#54A8DC; --c-paper:#38C79C; --c-product:#AE92E0;
+    --shadow:0 1px 2px rgba(0,0,0,.5),0 12px 32px -16px rgba(0,0,0,.7);
+  }
+}
+/* 明示的な dark 指定（トグル）はメディアクエリより強い */
+:root[data-theme="dark"]{
+  --bg:#0D151C; --panel:#15202A; --panel-2:#111A23;
+  --ocean:#0F1B25; --land:#25352E; --land-line:#385044; --grat:#1E2C38;
+  --ink:#E3EBF1; --ink-2:#9DAEBC; --ink-3:#728595;
+  --line:#243441; --line-soft:#1B2833;
+  --accent:#5FC2E8;
+  --c-origin:#E285CB; --c-global:#F5893C; --c-regional:#EFBB3C;
+  --c-national:#54A8DC; --c-paper:#38C79C; --c-product:#AE92E0;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 12px 32px -16px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;
+  line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 20px 64px;display:flex;flex-direction:column;gap:20px}
+
+/* ---------------- header ---------------- */
+header{display:flex;flex-direction:column;gap:14px}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.eyebrow b{color:var(--accent);font-weight:500}
+h1{font-family:var(--f-disp);font-weight:700;font-size:clamp(30px,5.2vw,46px);line-height:1.02;
+  letter-spacing:-.025em;margin:0;text-wrap:balance}
+h1 .sub{display:block;font-family:var(--f-body);font-weight:500;font-size:clamp(13px,1.7vw,16px);
+  letter-spacing:0;line-height:1.5;color:var(--ink-2);margin-top:10px;max-width:64ch}
+.stats{display:flex;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:12px 22px 12px 0;margin-right:22px;border-right:1px solid var(--line-soft);
+  display:flex;flex-direction:column;gap:1px}
+.stat:last-child{border-right:0}
+.stat .v{font-family:var(--f-mono);font-size:20px;font-weight:500;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.stat .k{font-size:11px;color:var(--ink-3);letter-spacing:.03em}
+
+/* ---------------- map ---------------- */
+.mapcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  box-shadow:var(--shadow);overflow:hidden}
+.maptop{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:11px 14px;border-bottom:1px solid var(--line-soft);background:var(--panel-2)}
+.legend{display:flex;flex-wrap:wrap;gap:6px}
+.lg{display:inline-flex;align-items:center;gap:7px;padding:4px 10px 4px 8px;border:1px solid var(--line);
+  background:var(--panel);border-radius:2px;cursor:pointer;font-size:12px;color:var(--ink);
+  font-family:inherit;transition:opacity .15s,border-color .15s}
+.lg:hover{border-color:var(--ink-3)}
+.lg .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.lg .n{font-family:var(--f-mono);font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.lg[aria-pressed="false"]{opacity:.34}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.seg{display:flex;border:1px solid var(--line);border-radius:2px;overflow:hidden}
+.seg button{border:0;border-right:1px solid var(--line);background:var(--panel);color:var(--ink-2);
+  font-family:var(--f-body);font-size:12px;padding:5px 11px;cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button:hover{background:var(--panel-2);color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--panel)}
+.lg:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.mapbox{position:relative;height:min(62vh,620px);min-height:400px;background:var(--ocean)}
+#map{position:absolute;inset:0}
+#map canvas{outline:none}
+.hint{position:absolute;left:10px;bottom:8px;z-index:2;font-family:var(--f-mono);font-size:10px;
+  color:var(--ink-3);letter-spacing:.04em;pointer-events:none;text-shadow:0 0 4px var(--ocean)}
+.loading{position:absolute;inset:0;display:grid;place-items:center;z-index:3;background:var(--ocean);
+  font-family:var(--f-mono);font-size:12px;color:var(--ink-3);letter-spacing:.06em}
+.loading[hidden]{display:none}
+.err{position:absolute;inset:0;display:grid;place-items:center;z-index:4;background:var(--panel);
+  padding:24px;text-align:center;font-size:13px;color:var(--ink-2);line-height:1.7}
+.err[hidden]{display:none}
+.err code{font-family:var(--f-mono);font-size:11.5px;background:var(--panel-2);
+  border:1px solid var(--line-soft);padding:1px 5px;border-radius:2px}
+
+/* ツールチップ（MapLibre の Popup は使わず、Artifact と同じ見た目の div を追従させる） */
+.tip{position:absolute;z-index:5;pointer-events:none;background:var(--panel);border:1px solid var(--line);
+  box-shadow:var(--shadow);border-radius:2px;padding:8px 10px;max-width:270px;font-size:12px;
+  line-height:1.45;opacity:0;transform:translateY(3px);transition:opacity .12s,transform .12s}
+.tip.on{opacity:1;transform:none}
+.tip .t{font-weight:600;margin-bottom:2px}
+.tip .m{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.02em}
+
+/* MapLibre 標準UIをトークンに合わせる */
+.maplibregl-ctrl-group{background:var(--panel)!important;border:1px solid var(--line)!important;
+  border-radius:2px!important;box-shadow:none!important}
+.maplibregl-ctrl-group button+button{border-top:1px solid var(--line-soft)!important}
+/* MapLibre のコントロールアイコンは黒の SVG 固定なので、暗い面では反転させる */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1)}
+}
+:root[data-theme="dark"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1)}
+:root[data-theme="light"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:none}
+.maplibregl-ctrl-attrib{background:color-mix(in srgb,var(--panel) 82%,transparent)!important;
+  font-family:var(--f-mono)!important;font-size:10px!important}
+.maplibregl-ctrl-attrib a{color:var(--ink-3)!important}
+.maplibregl-ctrl-scale{background:color-mix(in srgb,var(--panel) 70%,transparent)!important;
+  border-color:var(--ink-3)!important;color:var(--ink-2)!important;
+  font-family:var(--f-mono)!important;font-size:10px!important}
+
+/* ---------------- timeline ---------------- */
+.tl{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:14px 16px 10px}
+.tlhead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  margin-bottom:12px}
+.tlhead h2{font-family:var(--f-disp);font-size:14px;font-weight:600;margin:0;letter-spacing:-.01em}
+.tlhead p{margin:0;font-size:11.5px;color:var(--ink-3)}
+.bars{display:flex;align-items:flex-end;gap:3px;height:96px}
+.yr{flex:1 1 0;min-width:0;display:flex;flex-direction:column;cursor:pointer;background:none;
+  border:0;padding:0;font-family:inherit}
+.yr .col{display:flex;flex-direction:column;justify-content:flex-end;height:78px;gap:1px}
+.yr .sg{width:100%;border-radius:1px}
+.yr:hover .col{filter:brightness(1.14)}
+.yr[aria-pressed="true"] .col{outline:1.5px solid var(--ink);outline-offset:2px}
+.yraxis{display:flex;gap:3px;margin-top:6px;border-top:1px solid var(--line-soft);padding-top:5px}
+.yraxis span{flex:1 1 0;min-width:0;font-family:var(--f-mono);font-size:9px;color:var(--ink-3);
+  text-align:center;font-variant-numeric:tabular-nums;overflow:hidden}
+
+/* ---------------- table ---------------- */
+.tbl{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.tblhead{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:12px 16px;border-bottom:1px solid var(--line-soft);background:var(--panel-2)}
+.tblhead h2{font-family:var(--f-disp);font-size:14px;font-weight:600;margin:0}
+.tblhead .meta{font-family:var(--f-mono);font-size:11px;color:var(--ink-3)}
+.search{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:2px;
+  padding:5px 9px;font-family:var(--f-body);font-size:12.5px;width:210px}
+.scroll{max-height:520px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+thead th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;font-size:10.5px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);padding:8px 12px;
+  border-bottom:1px solid var(--line);white-space:nowrap;z-index:2;cursor:pointer;user-select:none}
+thead th:hover{color:var(--ink)}
+thead th .ar{font-family:var(--f-mono);opacity:.55}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--panel-2)}
+td.y{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink-2)}
+td.co{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);white-space:nowrap}
+td.nm{min-width:230px}
+td.nm .d{color:var(--ink-2);font-size:11.5px;line-height:1.5;margin-top:3px}
+td.pl{white-space:nowrap}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;white-space:nowrap;
+  padding:2px 7px;border-radius:2px;border:1px solid currentColor;background:transparent}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.flag{display:inline-block;font-family:var(--f-mono);font-size:9.5px;letter-spacing:.05em;
+  border:1px dashed var(--ink-3);color:var(--ink-3);padding:0 4px;border-radius:2px;margin-left:6px;
+  vertical-align:1px}
+a{color:var(--accent);text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+a:hover{border-bottom-color:var(--accent)}
+.src{font-family:var(--f-mono);font-size:10.5px}
+.empty{padding:34px 16px;text-align:center;color:var(--ink-3);font-size:13px}
+
+/* ---------------- notes ---------------- */
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:0 28px;
+  border-top:1px solid var(--line);padding-top:18px}
+.notes section{padding-bottom:14px}
+.notes h3{font-family:var(--f-disp);font-size:12px;font-weight:600;margin:0 0 6px;letter-spacing:.02em}
+.notes p{margin:0 0 8px;font-size:12px;color:var(--ink-2);line-height:1.62}
+.notes code{font-family:var(--f-mono);font-size:11px;background:var(--panel-2);
+  border:1px solid var(--line-soft);padding:1px 4px;border-radius:2px}
+
+@media (max-width:720px){
+  .stat{padding-right:16px;margin-right:16px}
+  .scroll{max-height:440px}
+  td.nm .d{display:none}
+  .mapbox{height:60vh}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

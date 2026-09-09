@@ -1,0 +1,5532 @@
+{
+ "type": "FeatureCollection",
+ "name": "FOSS4G usage 2004-2027",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": 1,
+   "properties": {
+    "id": 1,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2003,
+    "when": "",
+    "name": "foss4g.org ポータル（GRASS/MapServer 国際化プロジェクト）",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "【大学プロジェクト】Venkatesh Raghavan と升本眞二が大阪市立大学で登録・運営。情報処理推進機構(IPA)助成によるGRASS 5.0 / MapServer 国際化プロジェクトのポータル。2007年に OSGeo へ寄贈",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 2,
+   "properties": {
+    "id": 2,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2004,
+    "when": "",
+    "name": "FOSS4G 2004（世界大会）",
+    "city": "Bangkok",
+    "country": "タイ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。FOSS/GRASS 2004（遡及的に第1回とされる）",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5018,
+     13.7563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 3,
+   "properties": {
+    "id": 3,
+    "category": "origin",
+    "category_ja": "語源・初出",
+    "year": 2004,
+    "when": "2004/09/12-14",
+    "name": "FOSS/GRASS 2004（略語の国際的普及の場）",
+    "city": "Bangkok",
+    "country": "タイ",
+    "description": "正式名称 \"Free/Libre and Open Source Software for Geoinformatics: GIS-GRASS Users Conference\"。チュラロンコン大学工学部測量工学科で9/12-14に開催。当時の会議名に FOSS4G は使われていないが、発表論文タイトルに FOSS4G が登場し、ここで Raghavan・Neteler・McKenna が年次国際会議の構想を立てた。後に遡って「FOSS4G 第1回」と位置づけられている。",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/2004/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5018,
+     13.7563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 4,
+   "properties": {
+    "id": 4,
+    "category": "origin",
+    "category_ja": "語源・初出",
+    "year": 2004,
+    "when": "2004年3月",
+    "name": "「FOSS4G」語の考案・初出",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "大阪市立大学の Venkatesh Raghavan らが GRASS/MapServer 国際化(I18N)プロジェクトの中で \"Free and Open Source Software for Geoinformatics\" の略語として考案。2004年3月、同大学学術情報総合センター紀要『情報学研究』の論文で初めて活字として定義・使用された。foss4g.org ドメインは2003年に Raghavan と升本眞二の名義で登録され、2007年10月に OSGeo へ寄贈。",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 5,
+   "properties": {
+    "id": 5,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2004,
+    "when": "",
+    "name": "Venkatesh Raghavan（FOSS4G 語の考案者・拠点）",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "【人物・大学】大阪公立大学（旧大阪市立大学）地理情報学。OSGeo 創設メンバー・元会長。2012年 Sol Katz Award。ZOO-Project WPS に関与",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Venkatesh_Raghavan"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 6,
+   "properties": {
+    "id": 6,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2006,
+    "when": "",
+    "name": "FOSS4G 2006（世界大会）",
+    "city": "Lausanne",
+    "country": "スイス",
+    "description": "OSGeo 公式の FOSS4G 世界大会。会議名として初めて「FOSS4G」を採用。OSGeo 設立(2006)直後の第1回公式大会",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.6323,
+     46.5197
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 7,
+   "properties": {
+    "id": 7,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2006,
+    "when": "",
+    "name": "FOSSGIS 2006",
+    "city": "Bonn",
+    "country": "ドイツ",
+    "description": "3/29-30。ドイツ語圏版（FOSS4G DE 相当）",
+    "confidence": "confirmed",
+    "source_url": "https://fossgis-konferenz.de/liste.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.0982,
+     50.7374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 8,
+   "properties": {
+    "id": 8,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2007,
+    "when": "",
+    "name": "FOSS4G 2007（世界大会）",
+    "city": "Victoria",
+    "country": "カナダ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -123.3656,
+     48.4284
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 9,
+   "properties": {
+    "id": 9,
+    "category": "origin",
+    "category_ja": "語源・初出",
+    "year": 2007,
+    "when": "2007/10/03",
+    "name": "foss4g.org ドメインの OSGeo への寄贈",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "Raghavan が「語の出自の認知」「FOSS4G に合理的に関係する活動をする誰にでも名称を開放する」ことを条件に foss4g.org を OSGeo へ寄贈（2007年10月3日）。OSGeo の FOSS4G Manifesto にこの経緯が明記されている。",
+    "confidence": "confirmed",
+    "source_url": "https://lists.osgeo.org/pipermail/conference_dev/2007-August/000379.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 10,
+   "properties": {
+    "id": 10,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2008,
+    "when": "",
+    "name": "FOSS4G 2008（世界大会）",
+    "city": "Cape Town",
+    "country": "南アフリカ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。アフリカ初開催。OSGeo アフリカ支部発足の契機",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.4241,
+     -33.9249
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 11,
+   "properties": {
+    "id": 11,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2008,
+    "when": "",
+    "name": "FOSS4G francophone 2008",
+    "city": "Nantes",
+    "country": "フランス",
+    "description": "フランス語圏版の計画記録（実施は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G_francophone_fr"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5536,
+     47.2184
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 12,
+   "properties": {
+    "id": 12,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2009,
+    "when": "",
+    "name": "FOSS4G 2009（世界大会）",
+    "city": "Sydney",
+    "country": "オーストラリア",
+    "description": "OSGeo 公式の FOSS4G 世界大会。FOSS4G 2009 Live DVD（後の OSGeoLive）を配布",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2093,
+     -33.8688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 13,
+   "properties": {
+    "id": 13,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2009,
+    "when": "",
+    "name": "FOSS4G 2009 Niigata",
+    "city": "Niigata",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0364,
+     37.9161
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 14,
+   "properties": {
+    "id": 14,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2009,
+    "when": "",
+    "name": "FOSS4G 2009 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 15,
+   "properties": {
+    "id": 15,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2009,
+    "when": "",
+    "name": "FOSS4G 2009 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催の国内イベント",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 16,
+   "properties": {
+    "id": 16,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2009,
+    "when": "",
+    "name": "GeoLivre 2009",
+    "city": "Brasilia",
+    "country": "ブラジル",
+    "description": "11/19。ブラジルの前身イベント",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Brasil"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.8828,
+     -15.7939
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 17,
+   "properties": {
+    "id": 17,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2009,
+    "when": "",
+    "name": "FOSS4Gを用いた歴史的農業環境閲覧システムの構築",
+    "city": "Tsukuba",
+    "country": "日本",
+    "description": "FOSS4Gを用いた歴史的農業環境閲覧システムの構築（筆頭著者: 岩崎亘典、掲載: GIS-理論と応用 17(1)、所属: 農業環境技術研究所 (NIAES)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5638/thagis.17.83"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.0764,
+     36.0835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 18,
+   "properties": {
+    "id": 18,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2009,
+    "when": "",
+    "name": "OSGeoLive（前身: FOSS4G 2009 Live DVD / Arramagong）",
+    "city": "Sydney",
+    "country": "オーストラリア",
+    "description": "【ソフトウェア配布物】FOSS4G 2009 Sydney の参加者に配布された Linux ベース Live DVD が起源。後に \"Live GIS Disc\" → OSGeoLive として独立プロジェクト化し、50以上のオープンソース地理空間ソフトを収録",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G_2009_Live_DVD"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2093,
+     -33.8688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 19,
+   "properties": {
+    "id": 19,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2010,
+    "when": "",
+    "name": "FOSS4G 2010（世界大会）",
+    "city": "Barcelona",
+    "country": "スペイン",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.1686,
+     41.3874
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 20,
+   "properties": {
+    "id": 20,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2010,
+    "when": "",
+    "name": "FOSS4G 2010 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 21,
+   "properties": {
+    "id": 21,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2010,
+    "when": "",
+    "name": "FOSS4G 2010 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 22,
+   "properties": {
+    "id": 22,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2010,
+    "when": "",
+    "name": "FOSS4Gを活用した新たな都市計画支援ツールの開発と実践的利用に関する研究",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "FOSS4Gを活用した新たな都市計画支援ツールの開発と実践的利用に関する研究（筆頭著者: 泉岳樹、掲載: 日本地理学会発表要旨集 2010年春季大会、所属: 首都大学東京）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.14866/ajg.2010s.0.193.0"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 23,
+   "properties": {
+    "id": 23,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2010,
+    "when": "",
+    "name": "GatewayGeo（旧 Gateway Geomatics）",
+    "city": "Halifax",
+    "country": "カナダ",
+    "description": "【企業】サイトのキャッチが「FOSS4G Consulting and Training」。MapServer/QGIS/GRASS のコンサルと研修。MS4W（MapServer for Windows）配布元。所在はノバスコシア州（代表座標として Halifax を採用）",
+    "confidence": "unverified",
+    "source_url": "https://gatewaygeomatics.com/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.5752,
+     44.6488
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 24,
+   "properties": {
+    "id": 24,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2011,
+    "when": "",
+    "name": "FOSS4G 2011（世界大会）",
+    "city": "Denver",
+    "country": "アメリカ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。42カ国900名超・150発表。Academic Track が Transactions in GIS 特集号に",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 25,
+   "properties": {
+    "id": 25,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2011,
+    "when": "",
+    "name": "FOSS4G 2011 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 26,
+   "properties": {
+    "id": 26,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2011,
+    "when": "",
+    "name": "FOSS4G 2011 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 27,
+   "properties": {
+    "id": 27,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2011,
+    "when": "",
+    "name": "FOSS4G Korea 2011",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "韓国版 第1回（Smart Korea 併催）",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Korea"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 28,
+   "properties": {
+    "id": 28,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2011,
+    "when": "",
+    "name": "Open Cafe System: 自然環境分野におけるFOSS4Gパッケージの開発と適用",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "Open Cafe System: 自然環境分野におけるFOSS4Gパッケージの開発と適用（筆頭著者: 中山悠、掲載: GIS-理論と応用 19(1)、所属: NPO法人オープンコンシェルジュ（所在地は要確認））",
+    "confidence": "unverified",
+    "source_url": "https://doi.org/10.5638/thagis.19.17"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 29,
+   "properties": {
+    "id": 29,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2011,
+    "when": "",
+    "name": "Geo for All（旧 ICA-OSGeo Labs）",
+    "city": "Como",
+    "country": "イタリア",
+    "description": "【教育ネットワーク】OSGeo の教育アウトリーチ委員会。ICA/ISPRS/UN-GIS/AGILE/UCGIS/IGU/OGC と連携し、世界124以上のオープン地理空間教育ラボのネットワークを構成（拠点は分散。代表座標として Como を採用）",
+    "confidence": "unverified",
+    "source_url": "https://www.osgeo.org/initiatives/geo-for-all/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.0852,
+     45.8081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 30,
+   "properties": {
+    "id": 30,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2011,
+    "when": "",
+    "name": "GeoConnexion Magazine（FOSS4G メディアパートナー）",
+    "city": "Bristol",
+    "country": "イギリス",
+    "description": "【業界誌】FOSS4G のメディアパートナーを長年務め、継続的にニュースを掲載（例: FOSS4G NA 2024 St. Louis 開催報）。英国拠点（代表座標として英国内を採用）",
+    "confidence": "unverified",
+    "source_url": "https://2011.foss4g.org/content/geoconnexion-magazine.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5879,
+     51.4545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 31,
+   "properties": {
+    "id": 31,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G 2012（世界大会）",
+    "city": "Beijing",
+    "country": "中国",
+    "description": "OSGeo 公式の FOSS4G 世界大会。北京開催が決定していたが中止（OSGeo 理事会発表）【中止】",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.4074,
+     39.9042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 32,
+   "properties": {
+    "id": 32,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G 2012 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "北海道版の開始",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 33,
+   "properties": {
+    "id": 33,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G 2012 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 34,
+   "properties": {
+    "id": 34,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G 2012 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 35,
+   "properties": {
+    "id": 35,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G India 2012",
+    "city": "Hyderabad",
+    "country": "インド",
+    "description": "インド版（詳細は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://lists.openstreetmap.org/pipermail/talk-in/2012-September/001706.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.4867,
+     17.385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 36,
+   "properties": {
+    "id": 36,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G Korea 2012",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "10/12。COEX",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/82"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 37,
+   "properties": {
+    "id": 37,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G-NL 2012",
+    "city": "Velp",
+    "country": "オランダ",
+    "description": "オランダ版 第1回。約130名",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.977,
+     51.995
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 38,
+   "properties": {
+    "id": 38,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2012,
+    "when": "",
+    "name": "Free and Open Source Software for Geospatial Applications (FOSS4G): A Mature Alternative in the Geospatial Technologies Arena",
+    "city": "Denver",
+    "country": "アメリカ",
+    "description": "Free and Open Source Software for Geospatial Applications (FOSS4G): A Mature Alternative in the Geospatial Technologies Arena（筆頭著者: Rafael Moreno-Sanchez、掲載: Transactions in GIS 16(2) 特集号 巻頭言、所属: University of Colorado Denver）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1111/j.1467-9671.2012.01314.x"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 39,
+   "properties": {
+    "id": 39,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2012,
+    "when": "",
+    "name": "Preface for Vol 8 FOSS4G Prague",
+    "city": "Prague",
+    "country": "チェコ",
+    "description": "Preface for Vol 8 FOSS4G Prague（筆頭著者: Markus Neteler、掲載: Geoinformatics FCE CTU Vol.8、所属: Czech Technical University in Prague（掲載誌））",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.14311/gi.8.0"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4378,
+     50.0755
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 40,
+   "properties": {
+    "id": 40,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2012,
+    "when": "",
+    "name": "解析プロセス共有を簡易化するFOSS4Gを基盤としたWeb-GIS",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "解析プロセス共有を簡易化するFOSS4Gを基盤としたWeb-GIS（筆頭著者: 中山悠、掲載: GIS-理論と応用 20(2)、所属: NTTアクセスサービスシステム研究所（所在地は要確認））",
+    "confidence": "unverified",
+    "source_url": "https://doi.org/10.5638/thagis.20.185"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 41,
+   "properties": {
+    "id": 41,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G NA 2012",
+    "city": "Washington DC",
+    "country": "アメリカ",
+    "description": "北米地域大会 第1回",
+    "confidence": "confirmed",
+    "source_url": "https://www.foss4gna.org/2026-about"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0369,
+     38.9072
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 42,
+   "properties": {
+    "id": 42,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G-AU 2012",
+    "city": "Brisbane",
+    "country": "オーストラリア",
+    "description": "11/15-16。アンカンファレンス形式。オセアニア版の前身",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Oceania"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0251,
+     -27.4698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 43,
+   "properties": {
+    "id": 43,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2012,
+    "when": "",
+    "name": "FOSS4G-CEE 2012",
+    "city": "Prague",
+    "country": "チェコ",
+    "description": "中東欧版。Geoinformatics 2012 と併催。欧州版の前身",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Conference-Europe"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.4378,
+     50.0755
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 44,
+   "properties": {
+    "id": 44,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G 2013（世界大会）",
+    "city": "Nottingham",
+    "country": "イギリス",
+    "description": "OSGeo 公式の FOSS4G 世界大会。Academic Track が Transactions in GIS 18(4) 特集号に",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.1581,
+     52.9548
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 45,
+   "properties": {
+    "id": 45,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G / Conferencia de Geomatica Libre 2013",
+    "city": "Buenos Aires",
+    "country": "アルゼンチン",
+    "description": "4/24-26。国土地理院(IGN)。アルゼンチン全国版 第1回",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Argentina"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -58.3816,
+     -34.6037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 46,
+   "properties": {
+    "id": 46,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G 2013 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "北海道版",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/2013/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 47,
+   "properties": {
+    "id": 47,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G 2013 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 48,
+   "properties": {
+    "id": 48,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G 2013 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "OSGeo 日本支部主催",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 49,
+   "properties": {
+    "id": 49,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G Korea 2013",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "11/14-15",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/135"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 50,
+   "properties": {
+    "id": 50,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G-NL 2013",
+    "city": "Delft",
+    "country": "オランダ",
+    "description": "TU Delft。約110名",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3571,
+     52.0116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 51,
+   "properties": {
+    "id": 51,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2013,
+    "when": "",
+    "name": "FOSSGIS 2013",
+    "city": "Rapperswil",
+    "country": "スイス",
+    "description": "6/12-14",
+    "confidence": "confirmed",
+    "source_url": "https://fossgis-konferenz.de/liste.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.8181,
+     47.2255
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 52,
+   "properties": {
+    "id": 52,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2013,
+    "when": "",
+    "name": "The 2012 free and open source GIS software map",
+    "city": "Calgary",
+    "country": "カナダ",
+    "description": "The 2012 free and open source GIS software map（筆頭著者: Stefan Steiniger、掲載: Computers, Environment and Urban Systems 39、所属: University of Calgary）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1016/j.compenvurbsys.2012.10.003"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -114.0719,
+     51.0447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 53,
+   "properties": {
+    "id": 53,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G NA 2013",
+    "city": "Minneapolis",
+    "country": "アメリカ",
+    "description": "5/22-24",
+    "confidence": "confirmed",
+    "source_url": "https://github.com/kgjenkins/foss4gna-archive"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.265,
+     44.9778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 54,
+   "properties": {
+    "id": 54,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2013,
+    "when": "",
+    "name": "FOSS4G-CEE 2013",
+    "city": "Bucharest",
+    "country": "ルーマニア",
+    "description": "中東欧版（欧州版の前身）",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1025,
+     44.4268
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 55,
+   "properties": {
+    "id": 55,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G 2014（世界大会）",
+    "city": "Portland",
+    "country": "アメリカ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.6784,
+     45.5152
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 56,
+   "properties": {
+    "id": 56,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G 2014 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "北海道版",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/2014/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 57,
+   "properties": {
+    "id": 57,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G 2014 Osaka",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "10/26-28",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 58,
+   "properties": {
+    "id": 58,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G 2014 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "10/31-11/2",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 59,
+   "properties": {
+    "id": 59,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G Korea 2014",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "韓国版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 60,
+   "properties": {
+    "id": 60,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G Peru 2014",
+    "city": "Lima",
+    "country": "ペルー",
+    "description": "Conferencia de Software Libre de Geotecnologias（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://wiki.osgeo.org/wiki/Per%C3%BA"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0428,
+     -12.0464
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 61,
+   "properties": {
+    "id": 61,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2014,
+    "when": "",
+    "name": "An Overview on Applications of FOSS4G in Education and Research",
+    "city": "Sejong",
+    "country": "韓国",
+    "description": "An Overview on Applications of FOSS4G in Education and Research（筆頭著者: Ilyoung Hong、掲載: Journal of Korea Spatial Information Society 22(4)、所属: KRIHS（所属は要確認））",
+    "confidence": "unverified",
+    "source_url": "https://doi.org/10.12672/ksis.2014.22.4.001"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.289,
+     36.48
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 62,
+   "properties": {
+    "id": 62,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2014,
+    "when": "",
+    "name": "Selected Papers from FOSS4G 2013: OSGeo's Global Conference for Open Source Geospatial Software",
+    "city": "Stuttgart",
+    "country": "ドイツ",
+    "description": "Selected Papers from FOSS4G 2013: OSGeo's Global Conference for Open Source Geospatial Software（筆頭著者: Franz-Josef Behr、掲載: Transactions in GIS 18(4) 特集号 巻頭言、所属: Stuttgart University of Applied Sciences）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1111/tgis.12074"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.1829,
+     48.7758
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 63,
+   "properties": {
+    "id": 63,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2014,
+    "when": "",
+    "name": "Bird's Eye View GIS",
+    "city": "Helsinge",
+    "country": "デンマーク",
+    "description": "【企業】Kurt Menke の GIS コンサル。FOSS4G Academy の共同開発者。ブログに「FOSS4G」カテゴリを持つ（設立時は米ニューメキシコ州）",
+    "confidence": "confirmed",
+    "source_url": "https://www.birdseyeviewgis.com/blog/tag/FOSS4G"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.2,
+     56.0333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 64,
+   "properties": {
+    "id": 64,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G = OSGeo の商標としての登録",
+    "city": "Bonn",
+    "country": "ドイツ",
+    "description": "【法務・ブランド】OSGeo の Trademark Guidelines に FOSS4G が商標として列挙。「正確な形で使用し、略記や他語との結合をしない」と規定。一方で FOSS4G Manifesto は寛容な名称開放原則を掲げており、この二重性が多様な非カンファレンス用法を生んでいる",
+    "confidence": "unverified",
+    "source_url": "https://www.osgeo.org/legal-information/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.0982,
+     50.7374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 65,
+   "properties": {
+    "id": 65,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G Academy",
+    "city": "Corpus Christi",
+    "country": "アメリカ",
+    "description": "【教材】NISGTC 主導のオープン教育リソース。Phil Davis（Del Mar College）、Kurt Menke、Richard Smith が開発。QGIS/GRASS/Inkscape による GST 101-105 の5科目カリキュラム。米労働省 Geospatial Technology Competency Model 準拠。公開時2,500名超が受講",
+    "confidence": "confirmed",
+    "source_url": "https://www.birdseyeviewgis.com/blog/2014/8/22/foss4g-academy-launched.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.3964,
+     27.8006
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 66,
+   "properties": {
+    "id": 66,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G Manifesto（OSGeo 規範文書）",
+    "city": "Bonn",
+    "country": "ドイツ",
+    "description": "【規範文書】FOSS4G の名称使用に関する OSGeo の原則文書。「FOSS4G の名称は、Free and Open Source Geospatial に合理的に関係する活動をする誰にでも開かれている」と明記。OSGeo Wiki 上のドラフト（代表座標として OSGeo 欧州拠点 Bonn を採用）",
+    "confidence": "unverified",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G_Manifesto"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.0982,
+     50.7374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 67,
+   "properties": {
+    "id": 67,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2014,
+    "when": "",
+    "name": "Training Workshop on Western Ghats Biodiversity Using FOSS4G Tools（FOSS4G-2014）",
+    "city": "Bengaluru",
+    "country": "インド",
+    "description": "【公的研修】2014年2月24-28日。インド理科大学院(IISc) Centre for Ecological Sciences 主催、KSCST・OSGeo-India 共催。西ガーツ山脈の生物多様性モニタリングのための能力構築",
+    "confidence": "confirmed",
+    "source_url": "https://wgbis.ces.iisc.ac.in/energy/stc/foss4g_2014/index.htm"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5946,
+     12.9716
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 68,
+   "properties": {
+    "id": 68,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G Europe 2014",
+    "city": "Bremen",
+    "country": "ドイツ",
+    "description": "「FOSS4G Europe」名義の第1回",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.8017,
+     53.0793
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 69,
+   "properties": {
+    "id": 69,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2014,
+    "when": "",
+    "name": "FOSS4G-Asia 2014",
+    "city": "Pathum Thani",
+    "country": "タイ",
+    "description": "アジア地域大会 公式第1回（Asian Institute of Technology）",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/foss4gasia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.612,
+     14.079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 70,
+   "properties": {
+    "id": 70,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G 2015（世界大会）",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "OSGeo 公式の FOSS4G 世界大会。アジア初の世界大会",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 71,
+   "properties": {
+    "id": 71,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G 2015 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "7/2-4",
+    "confidence": "confirmed",
+    "source_url": "https://old.osgeo.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 72,
+   "properties": {
+    "id": 72,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G Belgium 2015",
+    "city": "Brussels",
+    "country": "ベルギー",
+    "description": "10/29。ベルギー版 第1回",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Belgium/FOSS4G"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3517,
+     50.8503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 73,
+   "properties": {
+    "id": 73,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G India 2015",
+    "city": "Hyderabad",
+    "country": "インド",
+    "description": "インド版（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://www.osgeo.org/foundation-news/announcing-foss4g-india-2015/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.4867,
+     17.385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 74,
+   "properties": {
+    "id": 74,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2015,
+    "when": "",
+    "name": "オープンソースGIS（FOSS4G）を使ってみよう",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "オープンソースGIS（FOSS4G）を使ってみよう（筆頭著者: 古川泰人、掲載: 哺乳類科学 55(1)、所属: 北海道大学大学院農学研究院／OSGeo財団日本支部）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.11238/mammalianscience.55.92"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 75,
+   "properties": {
+    "id": 75,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2015,
+    "when": "",
+    "name": "地理情報システム学会 FOSS4G分科会",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "【学会分科会】一般社団法人 地理情報システム学会(GISA)の分科会。空間情報に関するオープンソースソフトウェア・データ・規格の議論と情報共有。OSGeo 日本支部と連携し GIS学会大会で特別セッション・ハンズオンを実施。開始年は要確認",
+    "confidence": "unverified",
+    "source_url": "https://sites.google.com/site/foss4gsig/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 76,
+   "properties": {
+    "id": 76,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G Europe 2015",
+    "city": "Como",
+    "country": "イタリア",
+    "description": "欧州地域大会",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.0852,
+     45.8081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 77,
+   "properties": {
+    "id": 77,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2015,
+    "when": "",
+    "name": "FOSS4G NA 2015",
+    "city": "Burlingame",
+    "country": "アメリカ",
+    "description": "5/9-12（サンフランシスコ近郊）",
+    "confidence": "confirmed",
+    "source_url": "https://github.com/kgjenkins/foss4gna-archive"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.348,
+     37.5779
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 78,
+   "properties": {
+    "id": 78,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G 2016（世界大会）",
+    "city": "Bonn",
+    "country": "ドイツ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.0982,
+     50.7374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 79,
+   "properties": {
+    "id": 79,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G 2016 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "7/8-9",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2016"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 80,
+   "properties": {
+    "id": 80,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G 2016 NARA.KANSAI",
+    "city": "Nara",
+    "country": "日本",
+    "description": "10/30。関西版が大阪から奈良へ",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/2016-2/foss4g-2016-nara-kansai"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.8048,
+     34.6851
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 81,
+   "properties": {
+    "id": 81,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G 2016 TOKYO",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "東京版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2016/foss4g-2016-tokyo"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 82,
+   "properties": {
+    "id": 82,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G Argentina 2016",
+    "city": "Buenos Aires",
+    "country": "アルゼンチン",
+    "description": "4/5-9。Geoinquietos + IGN",
+    "confidence": "confirmed",
+    "source_url": "https://siglibreuruguay.wordpress.com/2016/01/14/conferencia-de-geomatica-libre-foss4g-argentina/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -58.3816,
+     -34.6037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 83,
+   "properties": {
+    "id": 83,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G Korea 2016",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "8/31-9/2。The-K Hotel（良才洞）",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/224"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 84,
+   "properties": {
+    "id": 84,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G UK 2016",
+    "city": "Southampton",
+    "country": "イギリス",
+    "description": "6/14-16。Ordnance Survey Explorer House",
+    "confidence": "confirmed",
+    "source_url": "https://uk.osgeo.org/foss4guk2016/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4044,
+     50.9097
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 85,
+   "properties": {
+    "id": 85,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2016,
+    "when": "",
+    "name": "FOSSGIS 2016",
+    "city": "Salzburg",
+    "country": "オーストリア",
+    "description": "7/4-6",
+    "confidence": "confirmed",
+    "source_url": "https://fossgis-konferenz.de/liste.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.055,
+     47.8095
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 86,
+   "properties": {
+    "id": 86,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2016,
+    "when": "",
+    "name": "Free and open source software for geospatial applications (FOSS4G) to support Future Earth",
+    "city": "Como",
+    "country": "イタリア",
+    "description": "Free and open source software for geospatial applications (FOSS4G) to support Future Earth（筆頭著者: Maria Antonia Brovelli、掲載: International Journal of Digital Earth 10(4)、所属: Politecnico di Milano (Como campus)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1080/17538947.2016.1196505"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.0852,
+     45.8081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 87,
+   "properties": {
+    "id": 87,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2016,
+    "when": "",
+    "name": "GEOSPATIAL DATA STREAM PROCESSING IN PYTHON USING FOSS4G COMPONENTS",
+    "city": "Pretoria",
+    "country": "南アフリカ",
+    "description": "GEOSPATIAL DATA STREAM PROCESSING IN PYTHON USING FOSS4G COMPONENTS（筆頭著者: G. McFerren、掲載: ISPRS Archives XLI-B7、所属: CSIR Meraka Institute）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLI-B7-931-2016"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.2293,
+     -25.7479
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 88,
+   "properties": {
+    "id": 88,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2016,
+    "when": "",
+    "name": "FOSS4G NA 2016",
+    "city": "Raleigh",
+    "country": "アメリカ",
+    "description": "5/2-5",
+    "confidence": "confirmed",
+    "source_url": "https://github.com/kgjenkins/foss4gna-archive"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.6382,
+     35.7796
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 89,
+   "properties": {
+    "id": 89,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G 2017（世界大会）",
+    "city": "Boston",
+    "country": "アメリカ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0589,
+     42.3601
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 90,
+   "properties": {
+    "id": 90,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G + SotM Argentina 2017",
+    "city": "Buenos Aires",
+    "country": "アルゼンチン",
+    "description": "10/23-28。IGN 共催（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://www.ign.gob.ar/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -58.3816,
+     -34.6037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 91,
+   "properties": {
+    "id": 91,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G 2017 KYOTO.KANSAI",
+    "city": "Kyoto",
+    "country": "日本",
+    "description": "10/14-16。総合地球環境学研究所",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2017"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.7681,
+     35.0116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 92,
+   "properties": {
+    "id": 92,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G 2017 TOKYO",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "東京版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/741"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 93,
+   "properties": {
+    "id": 93,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G Korea 2017",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "韓国版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 94,
+   "properties": {
+    "id": 94,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G-IT 2017",
+    "city": "Genova",
+    "country": "イタリア",
+    "description": "第1回。GFOSS Day + OSMit の統合",
+    "confidence": "confirmed",
+    "source_url": "http://www3.dicca.unige.it/geomatica/foss4git_2017/contact.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.9463,
+     44.4056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 95,
+   "properties": {
+    "id": 95,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G-NL 2017",
+    "city": "Groningen",
+    "country": "オランダ",
+    "description": "RUG / Zernike。150名",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.5665,
+     53.2194
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 96,
+   "properties": {
+    "id": 96,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G AS A KEY BUILDING BLOCK FOR CASE-BASED LEARNING IN GEOGRAPHIC INFORMATION EDUCATION",
+    "city": "Milano",
+    "country": "イタリア",
+    "description": "FOSS4G AS A KEY BUILDING BLOCK FOR CASE-BASED LEARNING IN GEOGRAPHIC INFORMATION EDUCATION（筆頭著者: M. Minghini、掲載: ISPRS Archives XLII-4/W2、所属: Politecnico di Milano）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-4-W2-129-2017"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.19,
+     45.4642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 97,
+   "properties": {
+    "id": 97,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G DATE ASSESSMENT ON THE ISPRS OPTICAL STEREO SATELLITE DATA",
+    "city": "Roma",
+    "country": "イタリア",
+    "description": "FOSS4G DATE ASSESSMENT ON THE ISPRS OPTICAL STEREO SATELLITE DATA（筆頭著者: M. Di Rita、掲載: ISPRS Archives XLII-1/W1、所属: Sapienza University of Rome）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-1-W1-635-2017"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4964,
+     41.9028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 98,
+   "properties": {
+    "id": 98,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2017,
+    "when": "",
+    "name": "Mapping Parties at FOSS4G Europe: Fun, Outcomes and Lessons Learned（書籍章）",
+    "city": "Milano",
+    "country": "イタリア",
+    "description": "Mapping Parties at FOSS4G Europe: Fun, Outcomes and Lessons Learned（書籍章）（筆頭著者: Maria Antonia Brovelli、掲載: Mobile Information Systems Leveraging VGI (Springer) ch.1、所属: Politecnico di Milano）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1007/978-3-319-70878-2_1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.19,
+     45.4642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 99,
+   "properties": {
+    "id": 99,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2017,
+    "when": "",
+    "name": "CU Denver FOSS4G Lab（FOSS4G Education, Research and Service Lab）",
+    "city": "Denver",
+    "country": "アメリカ",
+    "description": "【大学ラボ】コロラド大学デンバー校 地理・環境科学科。Rafael Moreno-Sanchez 主導。地理・環境科学科／建築計画学部／工学部を横断するFOSS4G教育・研究・サービスのハブ。国際アドバイザリーボードを持つ",
+    "confidence": "confirmed",
+    "source_url": "https://clas.ucdenver.edu/foss4g/mission-foss4g-ucd"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 100,
+   "properties": {
+    "id": 100,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G Certificate（正規修了証プログラム）",
+    "city": "Denver",
+    "country": "アメリカ",
+    "description": "【大学講座】コロラド大学デンバー校の12単位・4科目プログラム。キャップストーン科目名は GEOG 4093/5093 \"FOSS4G Systems Integration Lab\"",
+    "confidence": "confirmed",
+    "source_url": "https://clas.ucdenver.edu/ges/programs/certificates/free-and-open-source-software-geospatial-applications-foss4g"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 101,
+   "properties": {
+    "id": 101,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G Europe 2017",
+    "city": "Marne-la-Vallee",
+    "country": "フランス",
+    "description": "パリ近郊。フランス語圏コミュニティ主催",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G-Europe_2017"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.65,
+     48.84
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 102,
+   "properties": {
+    "id": 102,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2017,
+    "when": "",
+    "name": "FOSS4G-Asia 2017",
+    "city": "Hyderabad",
+    "country": "インド",
+    "description": "1/26-29（IIIT-Hyderabad）",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/foss4gasia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.4867,
+     17.385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 103,
+   "properties": {
+    "id": 103,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G 2018（世界大会）",
+    "city": "Dar es Salaam",
+    "country": "タンザニア",
+    "description": "OSGeo 公式の FOSS4G 世界大会。テーマ \"Leaving no-one behind\"。Academic Track は ISPRS Archives XLII-4/W8",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2083,
+     -6.7924
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 104,
+   "properties": {
+    "id": 104,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G 2018 Okayama（とびだせFOSS4G@KANSAI）",
+    "city": "Okayama",
+    "country": "日本",
+    "description": "11/4-5。岡山大学",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2018"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.9195,
+     34.6551
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 105,
+   "properties": {
+    "id": 105,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G 2018 Tokyo",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "11/9-10",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/1583"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 106,
+   "properties": {
+    "id": 106,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G Korea 2018",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "10/12-13。龍山 Y-Valley。OSGeo 韓国支部10周年",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/253"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 107,
+   "properties": {
+    "id": 107,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G Thailand 2018",
+    "city": "Pathum Thani",
+    "country": "タイ",
+    "description": "7/23-24。AIT + i-bitz 共催。300名超",
+    "confidence": "confirmed",
+    "source_url": "https://2019.foss4g.in.th/about/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.612,
+     14.079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 108,
+   "properties": {
+    "id": 108,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G UK 2018",
+    "city": "Southampton",
+    "country": "イギリス",
+    "description": "英国版（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://uk.osgeo.org/foss4guk2018/sponsors.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4044,
+     50.9097
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 109,
+   "properties": {
+    "id": 109,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G-IT 2018",
+    "city": "Roma",
+    "country": "イタリア",
+    "description": "2月開催。OSMit 併催",
+    "confidence": "confirmed",
+    "source_url": "https://lists.openstreetmap.org/pipermail/talk-it/2017-October/060761.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4964,
+     41.9028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 110,
+   "properties": {
+    "id": 110,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G-NL 2018",
+    "city": "Almere",
+    "country": "オランダ",
+    "description": "Aeres Hogeschool。150名超",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.2647,
+     52.3508
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 111,
+   "properties": {
+    "id": 111,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G-fr 2018",
+    "city": "Marne-la-Vallee",
+    "country": "フランス",
+    "description": "5/15-17（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://www.osgeo.org/events/foss4g-fr-2018/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.65,
+     48.84
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 112,
+   "properties": {
+    "id": 112,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2018,
+    "when": "",
+    "name": "A SEMI-AUTOMATIC PROCEDURE FOR A DEMOGRAPHIC ANALYSIS OF THE FOSS4G DEVELOPERS' COMMUNITY",
+    "city": "Milano",
+    "country": "イタリア",
+    "description": "A SEMI-AUTOMATIC PROCEDURE FOR A DEMOGRAPHIC ANALYSIS OF THE FOSS4G DEVELOPERS' COMMUNITY（筆頭著者: D. Oxoli、掲載: ISPRS Archives XLII-4/W8、所属: Politecnico di Milano）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-4-W8-171-2018"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.19,
+     45.4642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 113,
+   "properties": {
+    "id": 113,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G Conference Proceedings @ ScholarWorks（2013-2017年の学術トラック論文集）",
+    "city": "Amherst",
+    "country": "アメリカ",
+    "description": "FOSS4G Conference Proceedings @ ScholarWorks（2013-2017年の学術トラック論文集）（筆頭著者: Charlie Schweik ほか、掲載: UMass Amherst ScholarWorks、所属: University of Massachusetts Amherst）",
+    "confidence": "confirmed",
+    "source_url": "https://scholarworks.umass.edu/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.5199,
+     42.3732
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 114,
+   "properties": {
+    "id": 114,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G DATE for DSMs generation from tri-stereo optical satellite images",
+    "city": "Roma",
+    "country": "イタリア",
+    "description": "FOSS4G DATE for DSMs generation from tri-stereo optical satellite images（筆頭著者: Martina Di Rita、掲載: European Journal of Remote Sensing 51(1)、所属: Sapienza University of Rome）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1080/22797254.2018.1450644"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4964,
+     41.9028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 115,
+   "properties": {
+    "id": 115,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2018,
+    "when": "",
+    "name": "PREFACE: ACADEMIC TRACK OF FOSS4G 2018 – LEAVING NO-ONE BEHIND",
+    "city": "Dar es Salaam",
+    "country": "タンザニア",
+    "description": "PREFACE: ACADEMIC TRACK OF FOSS4G 2018 – LEAVING NO-ONE BEHIND（筆頭著者: A. H. Namangaya、掲載: ISPRS Archives XLII-4/W8、所属: Ardhi University）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-4-W8-1-2018"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.2083,
+     -6.7924
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 116,
+   "properties": {
+    "id": 116,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2018,
+    "when": "",
+    "name": "Center of Excellence in Geoinformatics（CERG 表記 \"COE-FOSS4G\"）",
+    "city": "Pune",
+    "country": "インド",
+    "description": "【大学センター】International Institute of Information Technology (I2IT, Hinjewadi) の地理情報学 Center of Excellence。OSGeo India、CERG と連携。2018年8月17-18日 発足",
+    "confidence": "confirmed",
+    "source_url": "https://osgeo.in/2018/08/20/coe_i2it/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8567,
+     18.5204
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 117,
+   "properties": {
+    "id": 117,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2018,
+    "when": "",
+    "name": "Geo For All: FOSS4G In Geospatial Education（Directions Magazine）",
+    "city": "Boston",
+    "country": "アメリカ",
+    "description": "【業界誌記事】著者 Michael Turner。ICA-OSGeo Labs Initiative が途上国の商用ソフトのコスト障壁を解消する仕組みを解説。発行年は要確認（代表座標として米国内を採用）",
+    "confidence": "unverified",
+    "source_url": "https://www.directionsmag.com/articles/geo-for-all-foss4g-in-geospatial-education/388235"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.0589,
+     42.3601
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 118,
+   "properties": {
+    "id": 118,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2018,
+    "when": "",
+    "name": "International Workshop on FOSS4G for Digital & Skill India",
+    "city": "Pune",
+    "country": "インド",
+    "description": "【国際ワークショップ】2018年8月17-18日。CERG と OSGeo India 共催。ZOO-Project / MapMint による Web-GIS 構築、ODK による参加型データ収集。講師: Gerald Fenoy、Venkatesh Raghavan ほか",
+    "confidence": "confirmed",
+    "source_url": "https://cerg.org.in/foss4g-workshop"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8567,
+     18.5204
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 119,
+   "properties": {
+    "id": 119,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G Europe 2018",
+    "city": "Guimaraes",
+    "country": "ポルトガル",
+    "description": "欧州地域大会",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.2918,
+     41.4425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 120,
+   "properties": {
+    "id": 120,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G NA 2018",
+    "city": "St. Louis",
+    "country": "アメリカ",
+    "description": "5/14-16",
+    "confidence": "confirmed",
+    "source_url": "https://github.com/kgjenkins/foss4gna-archive"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1994,
+     38.627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 121,
+   "properties": {
+    "id": 121,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2018",
+    "city": "Melbourne",
+    "country": "オーストラリア",
+    "description": "11/20-23。オセアニア地域大会 第1回",
+    "confidence": "confirmed",
+    "source_url": "https://2018.foss4g-oceania.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9631,
+     -37.8136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 122,
+   "properties": {
+    "id": 122,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2018,
+    "when": "",
+    "name": "FOSS4G-Asia 2018",
+    "city": "Moratuwa",
+    "country": "スリランカ",
+    "description": "12/2-5（University of Moratuwa）",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/foss4gasia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8816,
+     6.773
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 123,
+   "properties": {
+    "id": 123,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G 2019（世界大会）",
+    "city": "Bucharest",
+    "country": "ルーマニア",
+    "description": "OSGeo 公式の FOSS4G 世界大会。テーマ \"The asymptotic connection between software and data\"",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1025,
+     44.4268
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 124,
+   "properties": {
+    "id": 124,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G 2019 KOBE.KANSAI",
+    "city": "Kobe",
+    "country": "日本",
+    "description": "関西版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/2019-2/foss4g-2019-kobe-kansai"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.1955,
+     34.6901
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 125,
+   "properties": {
+    "id": 125,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G Belgium 2019",
+    "city": "Brussels",
+    "country": "ベルギー",
+    "description": "Tour & Taxis",
+    "confidence": "confirmed",
+    "source_url": "https://2019.foss4g.be/en/about"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3517,
+     50.8503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 126,
+   "properties": {
+    "id": 126,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G Hokkaido 2019",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "7/12-13。札幌市産業振興センター(ICC)",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/1909"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 127,
+   "properties": {
+    "id": 127,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G Korea 2019",
+    "city": "Busan",
+    "country": "韓国",
+    "description": "10/10-11。初のソウル以外での開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/266"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.0756,
+     35.1796
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 128,
+   "properties": {
+    "id": 128,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G NIIGATA 2019",
+    "city": "Niigata",
+    "country": "日本",
+    "description": "9/13-14。NICO プラザ",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/1909"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.0364,
+     37.9161
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 129,
+   "properties": {
+    "id": 129,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G TOKAI 2019",
+    "city": "Nagoya",
+    "country": "日本",
+    "description": "8/23-24。ヤフー名古屋オフィス",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/1909"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.9066,
+     35.1815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 130,
+   "properties": {
+    "id": 130,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G Thailand 2019",
+    "city": "Bangkok",
+    "country": "タイ",
+    "description": "11/4-5。チュラロンコン大学",
+    "confidence": "confirmed",
+    "source_url": "https://2019.foss4g.in.th/about/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5018,
+     13.7563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 131,
+   "properties": {
+    "id": 131,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G UK 2019",
+    "city": "Edinburgh",
+    "country": "イギリス",
+    "description": "英国版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/events/foss4g-uk-2019/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.1883,
+     55.9533
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 132,
+   "properties": {
+    "id": 132,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G-IT 2019",
+    "city": "Padova",
+    "country": "イタリア",
+    "description": "2/20-24",
+    "confidence": "confirmed",
+    "source_url": "https://www.ageiweb.it/eventi-e-info-per-newsletter/foss4g-it-2019-padova-20-24-febbraio-2019/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.8768,
+     45.4064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 133,
+   "properties": {
+    "id": 133,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G-NL 2019",
+    "city": "Delft",
+    "country": "オランダ",
+    "description": "TU Delft",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3571,
+     52.0116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 134,
+   "properties": {
+    "id": 134,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2019,
+    "when": "",
+    "name": "ACADEMIC TRACK OF FOSS4G 2019 BUCHAREST – THE ASYMPTOTIC CONNECTION BETWEEN SOFTWARE AND DATA: PREFACE",
+    "city": "Bucharest",
+    "country": "ルーマニア",
+    "description": "ACADEMIC TRACK OF FOSS4G 2019 BUCHAREST – THE ASYMPTOTIC CONNECTION BETWEEN SOFTWARE AND DATA: PREFACE（筆頭著者: A. F. Marin、掲載: ISPRS Archives XLII-4/W14、所属: University of Bucharest）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-4-W14-1-2019"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.1025,
+     44.4268
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 135,
+   "properties": {
+    "id": 135,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2019,
+    "when": "",
+    "name": "Automatic conversion of OSM data into LULC maps: comparing FOSS4G based approaches",
+    "city": "Coimbra",
+    "country": "ポルトガル",
+    "description": "Automatic conversion of OSM data into LULC maps: comparing FOSS4G based approaches（筆頭著者: J. Patriarca、掲載: Open Geospatial Data, Software and Standards 4:11、所属: University of Coimbra (CISUC)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1186/s40965-019-0070-2"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.4103,
+     40.2033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 136,
+   "properties": {
+    "id": 136,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2019,
+    "when": "",
+    "name": "Comparison of FOSS4G Supported Equal-Area Projections Using Discrete Distortion Indicatrices",
+    "city": "Wageningen",
+    "country": "オランダ",
+    "description": "Comparison of FOSS4G Supported Equal-Area Projections Using Discrete Distortion Indicatrices（筆頭著者: Luis Moreira de Sousa、掲載: ISPRS Int. J. Geo-Information 8(8)、所属: ISRIC – World Soil Information）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.3390/ijgi8080351"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.6654,
+     51.9692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 137,
+   "properties": {
+    "id": 137,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2019,
+    "when": "",
+    "name": "Development of optimal routing service for emergency scenarios using pgRouting and FOSS4G",
+    "city": "Phitsanulok",
+    "country": "タイ",
+    "description": "Development of optimal routing service for emergency scenarios using pgRouting and FOSS4G（筆頭著者: Sittichai Choosumrong、掲載: Spatial Information Research 27(4)、所属: Naresuan University）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1007/s41324-019-00248-2"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.2659,
+     16.8211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 138,
+   "properties": {
+    "id": 138,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2019,
+    "when": "",
+    "name": "OPEN SCIENCE, KNOWLEDGE SHARING AND REPRODUCIBILITY AS DRIVERS FOR THE ADOPTION OF FOSS4G IN ENVIRONMENTAL RESEARCH",
+    "city": "Birmensdorf",
+    "country": "スイス",
+    "description": "OPEN SCIENCE, KNOWLEDGE SHARING AND REPRODUCIBILITY AS DRIVERS FOR THE ADOPTION OF FOSS4G IN ENVIRONMENTAL RESEARCH（筆頭著者: I. Iosifescu Enescu、掲載: ISPRS Archives XLII-4/W14、所属: WSL（スイス連邦森林・雪・景観研究所））",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLII-4-W14-107-2019"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.4581,
+     47.3567
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 139,
+   "properties": {
+    "id": 139,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G NA 2019",
+    "city": "San Diego",
+    "country": "アメリカ",
+    "description": "4/14-18",
+    "confidence": "confirmed",
+    "source_url": "https://github.com/kgjenkins/foss4gna-archive"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.1611,
+     32.7157
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 140,
+   "properties": {
+    "id": 140,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2019,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2019",
+    "city": "Wellington",
+    "country": "ニュージーランド",
+    "description": "11/12-15",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Oceania"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     174.7756,
+     -41.2866
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 141,
+   "properties": {
+    "id": 141,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G 2020（世界大会）",
+    "city": "Calgary",
+    "country": "カナダ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。COVID-19 により中止【中止】",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -114.0719,
+     51.0447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 142,
+   "properties": {
+    "id": 142,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G 2020 Hokkaido",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "北海道版",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 143,
+   "properties": {
+    "id": 143,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G 2020 Japan Online",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "11/7-8。SotM Japan 2020 併催。オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2020/foss4g-2020-japan-online"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 144,
+   "properties": {
+    "id": 144,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G Korea 2020",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "11/12-13。オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/282"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 145,
+   "properties": {
+    "id": 145,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G Perth 2020",
+    "city": "Perth",
+    "country": "オーストラリア",
+    "description": "西オーストラリアのローカルイベント",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g-perth.org/about"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.8605,
+     -31.9505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 146,
+   "properties": {
+    "id": 146,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G UK Online 2020",
+    "city": "Southampton",
+    "country": "イギリス",
+    "description": "6/17。オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://uk.osgeo.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.4044,
+     50.9097
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 147,
+   "properties": {
+    "id": 147,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G-IT 2020",
+    "city": "Torino",
+    "country": "イタリア",
+    "description": "2/18-22。Politecnico di Torino",
+    "confidence": "confirmed",
+    "source_url": "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/event/foss4g-it-2020-conference"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.6869,
+     45.0703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 148,
+   "properties": {
+    "id": 148,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2020,
+    "when": "",
+    "name": "Disease Mapping and Health Analysis Using FOSS4G（書籍章）",
+    "city": "Shah Alam",
+    "country": "マレーシア",
+    "description": "Disease Mapping and Health Analysis Using FOSS4G（書籍章）（筆頭著者: Muhammad Dinie Haqim Azewan、掲載: Charting the Sustainable Future of ASEAN in Science and Technology (Springer)、所属: Universiti Teknologi MARA）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1007/978-981-15-3434-8_43"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.5185,
+     3.0733
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 149,
+   "properties": {
+    "id": 149,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2020,
+    "when": "",
+    "name": "GISADVISOR.COM（FOSS4Gカリキュラム）",
+    "city": "Salisbury",
+    "country": "アメリカ",
+    "description": "【個人事業】Art Lembo が「a complete curriculum in free and open source software for geospatial (FOSS4G)」と称する7講座を提供",
+    "confidence": "unverified",
+    "source_url": "https://www.artlembo.com/online-courses"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.5994,
+     38.3607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 150,
+   "properties": {
+    "id": 150,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2020,
+    "when": "",
+    "name": "Learn the FOSS4g Stack（商用オンライン講座シリーズ）",
+    "city": "Salisbury",
+    "country": "アメリカ",
+    "description": "【教材・製品名】GEO University（運営: Urbetho CF GmbH, ドイツ Alling）で販売。講師 Arthur J. Lembo Jr.（Salisbury University 教授）。QGIS 3 Desktop / Enterprise GIS with PostgreSQL-PostGIS / Spatial SQL / Python Geospatial など。Udemy・cloudeo でも再販",
+    "confidence": "confirmed",
+    "source_url": "https://www.geo.university/courses/learn-the-foss4g-stack-qgis-3-desktop"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.5994,
+     38.3607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 151,
+   "properties": {
+    "id": 151,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G Europe 2020",
+    "city": "Valmiera",
+    "country": "ラトビア",
+    "description": "COVID-19 により中止",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.4275,
+     57.5411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 152,
+   "properties": {
+    "id": 152,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2020,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2020",
+    "city": "Melbourne",
+    "country": "オーストラリア",
+    "description": "オンライン＋各地ハブ（Apia/Auckland/Cairns/Canberra/Christchurch/Hobart/Melbourne/Perth/Rarotonga/Suva/Wellington）",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Oceania"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9631,
+     -37.8136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 153,
+   "properties": {
+    "id": 153,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G 2021（世界大会）",
+    "city": "Buenos Aires",
+    "country": "アルゼンチン",
+    "description": "OSGeo 公式の FOSS4G 世界大会。オンライン開催【オンライン】",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -58.3816,
+     -34.6037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 154,
+   "properties": {
+    "id": 154,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G 2021 Japan Online",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2021/foss4g-2021-japan-online"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 155,
+   "properties": {
+    "id": 155,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G Korea 2021",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "10/28-29。オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/284"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 156,
+   "properties": {
+    "id": 156,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G Perth 2021",
+    "city": "Perth",
+    "country": "オーストラリア",
+    "description": "西オーストラリアのローカルイベント",
+    "confidence": "confirmed",
+    "source_url": "https://forum.data.wa.gov.au/t/foss4g-perth-2021/365"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.8605,
+     -31.9505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 157,
+   "properties": {
+    "id": 157,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G Suomi 2021",
+    "city": "Helsinki",
+    "country": "フィンランド",
+    "description": "10/14。フィンランド版",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/events/foss4g-suomi/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.9384,
+     60.1699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 158,
+   "properties": {
+    "id": 158,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G-IT 2021",
+    "city": "Roma",
+    "country": "イタリア",
+    "description": "オンライン＋Bari/Genova/Milano/Perugia/Roma/Torino/Trento/Padova にハブ",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g-it2021.gfoss.it/index.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4964,
+     41.9028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 159,
+   "properties": {
+    "id": 159,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G-NL 2021",
+    "city": "Enschede",
+    "country": "オランダ",
+    "description": "ITC（トゥエンテ大学）",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.8937,
+     52.2215
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 160,
+   "properties": {
+    "id": 160,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G BASED HIGH FREQUENCY AND INTEROPERABLE LAKE WATER-QUALITY MONITORING SYSTEM",
+    "city": "Mendrisio",
+    "country": "スイス",
+    "description": "FOSS4G BASED HIGH FREQUENCY AND INTEROPERABLE LAKE WATER-QUALITY MONITORING SYSTEM（筆頭著者: M. Cannata、掲載: ISPRS Archives XLVI-4/W2、所属: SUPSI, Istituto scienze della Terra）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVI-4-W2-2021-25-2021"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.9833,
+     45.8667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 161,
+   "properties": {
+    "id": 161,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2021,
+    "when": "",
+    "name": "Traffic speed mapping with cellular network signaling data by FOSS4G",
+    "city": "Beijing",
+    "country": "中国",
+    "description": "Traffic speed mapping with cellular network signaling data by FOSS4G（筆頭著者: Weifeng Wang、掲載: Spatial Information Research 30(1)、所属: Chinese Academy of Sciences (UCAS)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1007/s41324-021-00418-1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.4074,
+     39.9042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 162,
+   "properties": {
+    "id": 162,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G Portal (foss4g.negd.in)",
+    "city": "New Delhi",
+    "country": "インド",
+    "description": "【政府】インド電子情報技術省(MeitY)傘下 National e-Governance Division (NeGD) が運営する国家FOSS4Gポータル。ソースコード・文書・e-book・e-learning を農業/防災/水資源/都市インフラ/林業などセクター別に提供。所在: Electronics Niketan 4F, CGO Complex, Lodhi Road, New Delhi",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.negd.in/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.209,
+     28.6139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 163,
+   "properties": {
+    "id": 163,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2021",
+    "city": "Melbourne",
+    "country": "オーストラリア",
+    "description": "オンライン＋各地ハブ",
+    "confidence": "confirmed",
+    "source_url": "https://osgeo-oceania.org/past-events/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9631,
+     -37.8136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 164,
+   "properties": {
+    "id": 164,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2021,
+    "when": "",
+    "name": "FOSS4G-Asia 2021",
+    "city": "Kathmandu",
+    "country": "ネパール",
+    "description": "10/1-2。当初2020年予定を延期",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/foss4gasia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.324,
+     27.7172
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 165,
+   "properties": {
+    "id": 165,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4G 2022（世界大会）",
+    "city": "Firenze",
+    "country": "イタリア",
+    "description": "OSGeo 公式の FOSS4G 世界大会。テーマ \"A new renaissance\"。Academic Track は ISPRS Archives XLVIII-4/W1",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.2558,
+     43.7696
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 166,
+   "properties": {
+    "id": 166,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4G 2022 Japan Online",
+    "city": "Tokyo",
+    "country": "日本",
+    "description": "11/12-13。オンライン開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2022/foss4g-2022-japan-online"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6917,
+     35.6895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 167,
+   "properties": {
+    "id": 167,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4G Belgium 2022",
+    "city": "Brussels",
+    "country": "ベルギー",
+    "description": "11/17。SotM Belgium 併催",
+    "confidence": "confirmed",
+    "source_url": "https://2022.foss4g.be/en/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3517,
+     50.8503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 168,
+   "properties": {
+    "id": 168,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4G Korea 2022",
+    "city": "Goyang",
+    "country": "韓国",
+    "description": "11/3-4。KINTEX（一山）。Smart Land Expo 併催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/events/foss4g-korea-2022/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.745,
+     37.6667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 169,
+   "properties": {
+    "id": 169,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4G Thailand 2022",
+    "city": "Khon Kaen",
+    "country": "タイ",
+    "description": "11/25-27。コンケン大学",
+    "confidence": "confirmed",
+    "source_url": "https://www.kku.ac.th/th/121819/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.8236,
+     16.4322
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 170,
+   "properties": {
+    "id": 170,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2022,
+    "when": "",
+    "name": "FOSS4Gを用いた河川流域・農業的土地利用データベースの構築および土地利用算定ツールの開発",
+    "city": "Tsukuba",
+    "country": "日本",
+    "description": "FOSS4Gを用いた河川流域・農業的土地利用データベースの構築および土地利用算定ツールの開発（筆頭著者: 岩崎亘典、掲載: GIS-理論と応用 30(1)、所属: 農研機構 農業環境研究部門 (NARO)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5638/thagis.30.1"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.0764,
+     36.0835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 171,
+   "properties": {
+    "id": 171,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2022,
+    "when": "",
+    "name": "Internet GIS-Based Air Quality Monitoring and Forecast System for the Indian Region Using FOSS4G",
+    "city": "Dehradun",
+    "country": "インド",
+    "description": "Internet GIS-Based Air Quality Monitoring and Forecast System for the Indian Region Using FOSS4G（筆頭著者: Kapil Oberai、掲載: J. Indian Society of Remote Sensing 50(4)、所属: Indian Institute of Remote Sensing, ISRO）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.1007/s12524-021-01478-4"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     78.0322,
+     30.3165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 172,
+   "properties": {
+    "id": 172,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2022,
+    "when": "",
+    "name": "MODELING OF FOREST LANDSCAPE EVOLUTION AT REGIONAL LEVEL: A FOSS4G APPROACH",
+    "city": "Trento",
+    "country": "イタリア",
+    "description": "MODELING OF FOREST LANDSCAPE EVOLUTION AT REGIONAL LEVEL: A FOSS4G APPROACH（筆頭著者: P. Zatelli、掲載: ISPRS Archives XLVIII-4/W1、所属: University of Trento (DICAM)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W1-2022-553-2022"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.1217,
+     46.0748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 173,
+   "properties": {
+    "id": 173,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2022,
+    "when": "",
+    "name": "PREFACE: PROCEEDINGS OF THE FOSS4G 2022 ACADEMIC TRACK – A NEW RENAISSANCE",
+    "city": "Milano",
+    "country": "イタリア",
+    "description": "PREFACE: PROCEEDINGS OF THE FOSS4G 2022 ACADEMIC TRACK – A NEW RENAISSANCE（筆頭著者: M. A. Brovelli、掲載: ISPRS Archives XLVIII-4/W1、所属: Politecnico di Milano）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W1-2022-1-2022"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.19,
+     45.4642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 174,
+   "properties": {
+    "id": 174,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2022,
+    "when": "",
+    "name": "Pacific Geospatial Conference 2022",
+    "city": "Suva",
+    "country": "フィジー",
+    "description": "オセアニア地域大会の代替として実施（FOSS4G 名義ではない関連イベント）",
+    "confidence": "unverified",
+    "source_url": "https://osgeo-oceania.org/past-events/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     178.4419,
+     -18.1416
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 175,
+   "properties": {
+    "id": 175,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G 2023（世界大会）",
+    "city": "Prizren",
+    "country": "コソボ",
+    "description": "OSGeo 公式の FOSS4G 世界大会。テーマ \"Future Nostalgia\"",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     20.7397,
+     42.2139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 176,
+   "properties": {
+    "id": 176,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G 2023 Japan@FUKUI",
+    "city": "Fukui",
+    "country": "日本",
+    "description": "福井開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/events/foss4g-2023"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.2196,
+     36.0641
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 177,
+   "properties": {
+    "id": 177,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G Suomi 2023",
+    "city": "Helsinki",
+    "country": "フィンランド",
+    "description": "5/17。Oodi Maijansali",
+    "confidence": "confirmed",
+    "source_url": "https://2023.foss4g.fi/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.9384,
+     60.1699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 178,
+   "properties": {
+    "id": 178,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G Thailand / SotM Asia 2023",
+    "city": "Bangkok",
+    "country": "タイ",
+    "description": "State of the Map Asia 2023 併催（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://www.osgeo.org/events/foss4g-thailand-state-of-the-map-asia-2023/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5018,
+     13.7563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 179,
+   "properties": {
+    "id": 179,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G-IT / GEOdaysIT 2023",
+    "city": "Bari",
+    "country": "イタリア",
+    "description": "6月。Politecnico di Bari",
+    "confidence": "confirmed",
+    "source_url": "https://talks.osgeo.org/foss4g-it-2023/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.8719,
+     41.1171
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 180,
+   "properties": {
+    "id": 180,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G-NL 2023",
+    "city": "Middelburg",
+    "country": "オランダ",
+    "description": "ゼーラント州",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     3.6136,
+     51.4988
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 181,
+   "properties": {
+    "id": 181,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G:UK Local 2023",
+    "city": "Glasgow",
+    "country": "イギリス",
+    "description": "9/7。Glasgow/Lancaster/Keyworth/Maynooth/London/Swansea/Basingstoke/Bristol の8会場分散ハイブリッド開催",
+    "confidence": "confirmed",
+    "source_url": "https://www.agi.org.uk/events/foss4g-uk/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -4.2518,
+     55.8642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 182,
+   "properties": {
+    "id": 182,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2023,
+    "when": "",
+    "name": "Beyond the Tide: A Comprehensive Guide to Sea-Level-Rise Inundation Mapping Using FOSS4G",
+    "city": "Miami",
+    "country": "アメリカ",
+    "description": "Beyond the Tide: A Comprehensive Guide to Sea-Level-Rise Inundation Mapping Using FOSS4G（筆頭著者: Levente Juhasz、掲載: Geomatics 3(4)、所属: Florida International University）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.3390/geomatics3040028"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.1918,
+     25.7617
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 183,
+   "properties": {
+    "id": 183,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2023,
+    "when": "",
+    "name": "DESIGNING A FOSS4G-BASED WALKABLE LIVING AREA PLANNING SUPPORT MODULE TO ASSIST THE KOREAN 15-MINUTE CITY",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "DESIGNING A FOSS4G-BASED WALKABLE LIVING AREA PLANNING SUPPORT MODULE TO ASSIST THE KOREAN 15-MINUTE CITY（筆頭著者: J. Y. Choi、掲載: ISPRS Archives XLVIII-4/W7、所属: Seoul Institute of Technology）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W7-2023-19-2023"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 184,
+   "properties": {
+    "id": 184,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2023,
+    "when": "",
+    "name": "Free and Open Source Software for geospatial applications (FOSS4G)（書籍章）",
+    "city": "Denver",
+    "country": "アメリカ",
+    "description": "Free and Open Source Software for geospatial applications (FOSS4G)（書籍章）（筆頭著者: Rafael Moreno-Sanchez、掲載: The Routledge Handbook of Geospatial Technologies and Society, ch.21、所属: University of Colorado Denver）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.4324/9780367855765-21"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 185,
+   "properties": {
+    "id": 185,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2023,
+    "when": "",
+    "name": "PREFACE: PROCEEDINGS OF THE FOSS4G 2023 ACADEMIC TRACK – PRIZREN, FUTURE NOSTALGIA",
+    "city": "Ispra",
+    "country": "イタリア",
+    "description": "PREFACE: PROCEEDINGS OF THE FOSS4G 2023 ACADEMIC TRACK – PRIZREN, FUTURE NOSTALGIA（筆頭著者: M. Minghini、掲載: ISPRS Archives XLVIII-4/W7、所属: European Commission, Joint Research Centre）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W7-2023-1-2023"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.6167,
+     45.8167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 186,
+   "properties": {
+    "id": 186,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G NA 2023",
+    "city": "Baltimore",
+    "country": "アメリカ",
+    "description": "北米地域大会",
+    "confidence": "confirmed",
+    "source_url": "http://2023.foss4gna.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.6122,
+     39.2904
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 187,
+   "properties": {
+    "id": 187,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2023",
+    "city": "Auckland",
+    "country": "ニュージーランド",
+    "description": "オセアニア地域大会",
+    "confidence": "confirmed",
+    "source_url": "https://2023.foss4g-oceania.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     174.7633,
+     -36.8485
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 188,
+   "properties": {
+    "id": 188,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2023,
+    "when": "",
+    "name": "FOSS4G-Asia 2023",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "ソウル都市建築展示館。FOSS4G Korea 2023 を兼ねる",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/events/foss4g-asia-2023-seoul/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 189,
+   "properties": {
+    "id": 189,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G 2024（世界大会）",
+    "city": "Belem",
+    "country": "ブラジル",
+    "description": "OSGeo 公式の FOSS4G 世界大会。南米初の世界大会（アマゾン河口の都市）",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.5044,
+     -1.4558
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 190,
+   "properties": {
+    "id": 190,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G 2024 Japan",
+    "city": "Kawasaki",
+    "country": "日本",
+    "description": "11/9-10。専修大学生田キャンパス",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4097"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7029,
+     35.5309
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 191,
+   "properties": {
+    "id": 191,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G Hokkaido 2024",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "SotM Japan 2024 併催",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/2024/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 192,
+   "properties": {
+    "id": 192,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G Korea 2024",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "11/28-29。ソウル市立大学",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.kr/310"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 193,
+   "properties": {
+    "id": 193,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G Perth 2024",
+    "city": "Perth",
+    "country": "オーストラリア",
+    "description": "10/23",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/events/foss4g-perth-2024/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.8605,
+     -31.9505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 194,
+   "properties": {
+    "id": 194,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G-IT / OSMit 2024",
+    "city": "Padova",
+    "country": "イタリア",
+    "description": "イタリア版",
+    "confidence": "confirmed",
+    "source_url": "https://www.wikimedia.it/news/appuntamento-a-padova-per-foss4g-it-osmit-2024/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.8768,
+     45.4064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 195,
+   "properties": {
+    "id": 195,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G-NL/BE 2024",
+    "city": "Baarle",
+    "country": "ベルギー／オランダ",
+    "description": "9/25-27。Baarle-Hertog / Baarle-Nassau で蘭白合同開催",
+    "confidence": "confirmed",
+    "source_url": "https://community.openstreetmap.org/t/foss4g-nl-be-25-27-september-2024-baarle/115289"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.93,
+     51.445
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 196,
+   "properties": {
+    "id": 196,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G:UK SW 2024",
+    "city": "Bristol",
+    "country": "イギリス",
+    "description": "南西イングランド版",
+    "confidence": "confirmed",
+    "source_url": "https://uk.osgeo.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5879,
+     51.4545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 197,
+   "properties": {
+    "id": 197,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2024,
+    "when": "",
+    "name": "Guest Editorial for Special Issue on FOSS4G ASIA 2024",
+    "city": "Pathum Thani",
+    "country": "タイ",
+    "description": "Guest Editorial for Special Issue on FOSS4G ASIA 2024（筆頭著者: Sarawut Ninsawat、掲載: International Journal of Geoinformatics 21(1)、所属: Asian Institute of Technology）",
+    "confidence": "confirmed",
+    "source_url": "https://ijg.journals.publicknowledgeproject.org/index.php/journal/article/view/3819"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.612,
+     14.079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 198,
+   "properties": {
+    "id": 198,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2024,
+    "when": "",
+    "name": "Preface: Proceedings of the FOSS4G 2024 Academic Track – Digital Revolution",
+    "city": "Tartu",
+    "country": "エストニア",
+    "description": "Preface: Proceedings of the FOSS4G 2024 Academic Track – Digital Revolution（筆頭著者: Evelyn Uuemaa、掲載: ISPRS Archives XLVIII-4/W12、所属: University of Tartu）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W12-2024-1-2024"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.729,
+     58.3776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 199,
+   "properties": {
+    "id": 199,
+    "category": "product",
+    "category_ja": "プロダクト・組織・教育",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G Community Sprint / Code Sprint",
+    "city": "Belem",
+    "country": "ブラジル",
+    "description": "【開発イベント】OSGeo プロジェクトの開発者・ドキュメント執筆者が集まる共同作業日。世界大会・地域大会の Community Day として実施。2024年ベレン、2025年オークランド、FOSS4G Europe 2024/2025 でも併催",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/FOSS4G_2024_Community_Sprint"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.5044,
+     -1.4558
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 200,
+   "properties": {
+    "id": 200,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G Europe 2024",
+    "city": "Tartu",
+    "country": "エストニア",
+    "description": "Academic Track は ISPRS Archives XLVIII-4/W12",
+    "confidence": "confirmed",
+    "source_url": "https://2024.europe.foss4g.org/about/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.729,
+     58.3776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 201,
+   "properties": {
+    "id": 201,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G NA 2024",
+    "city": "St. Louis",
+    "country": "アメリカ",
+    "description": "9/9-11",
+    "confidence": "confirmed",
+    "source_url": "https://www.foss4gna.org/2026-about"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1994,
+     38.627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 202,
+   "properties": {
+    "id": 202,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G SotM Oceania 2024",
+    "city": "Hobart",
+    "country": "オーストラリア",
+    "description": "タスマニア",
+    "confidence": "confirmed",
+    "source_url": "https://2024.foss4g-oceania.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.3272,
+     -42.8821
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 203,
+   "properties": {
+    "id": 203,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2024,
+    "when": "",
+    "name": "FOSS4G-Asia 2024",
+    "city": "Bangkok",
+    "country": "タイ",
+    "description": "Srinakharinwirot University。International Journal of Geoinformatics 特集号あり",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/foss4gasia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.5018,
+     13.7563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 204,
+   "properties": {
+    "id": 204,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G 2025（世界大会）",
+    "city": "Auckland",
+    "country": "ニュージーランド",
+    "description": "OSGeo 公式の FOSS4G 世界大会。",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     174.7633,
+     -36.8485
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 205,
+   "properties": {
+    "id": 205,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G 2025 Japan",
+    "city": "Kawasaki",
+    "country": "日本",
+    "description": "10/11-12。専修大学生田キャンパス",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7029,
+     35.5309
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 206,
+   "properties": {
+    "id": 206,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G 2025 KANSAI",
+    "city": "Osaka",
+    "country": "日本",
+    "description": "7/5-6。大阪公立大学 I-site なんば",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5023,
+     34.6937
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 207,
+   "properties": {
+    "id": 207,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G Hokkaido 2025",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "9/26-27。EZOHUB SAPPORO",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 208,
+   "properties": {
+    "id": 208,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G KYUSHU 2025",
+    "city": "Fukuoka",
+    "country": "日本",
+    "description": "8/8-9。エンジニアカフェ",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.4017,
+     33.5904
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 209,
+   "properties": {
+    "id": 209,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G Korea 2025",
+    "city": "Seoul",
+    "country": "韓国",
+    "description": "12/5。LX 空間情報アカデミー（九老区）",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.osgeo.kr/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.978,
+     37.5665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 210,
+   "properties": {
+    "id": 210,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G SHINSHU 2025",
+    "city": "Ina",
+    "country": "日本",
+    "description": "11/29-30。信州大学農学部／INADANI SEES",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.jp/archives/4633"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.954,
+     35.8272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 211,
+   "properties": {
+    "id": 211,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G Suomi 2025",
+    "city": "Helsinki",
+    "country": "フィンランド",
+    "description": "9/9-10",
+    "confidence": "confirmed",
+    "source_url": "https://2025.foss4g.fi/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.9384,
+     60.1699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 212,
+   "properties": {
+    "id": 212,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G-IT / OSMit 2025",
+    "city": "Trento",
+    "country": "イタリア",
+    "description": "11/27-28",
+    "confidence": "confirmed",
+    "source_url": "https://www.wikimedia.it/news/foss4g-it-osmit-2025-il-software-e-i-dati-geospaziali-liberi-arrivano-a-trento/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.1217,
+     46.0748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 213,
+   "properties": {
+    "id": 213,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G-NL 2025",
+    "city": "Wageningen",
+    "country": "オランダ",
+    "description": "WUR。約200名",
+    "confidence": "confirmed",
+    "source_url": "https://wiki.osgeo.org/wiki/Nederland/Foss4GNL2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.6654,
+     51.9692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 214,
+   "properties": {
+    "id": 214,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G:UK 2025",
+    "city": "Leeds",
+    "country": "イギリス",
+    "description": "全53セッション",
+    "confidence": "confirmed",
+    "source_url": "https://uk.osgeo.org/foss4guk2025/programme/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5491,
+     53.8008
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 215,
+   "properties": {
+    "id": 215,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2025,
+    "when": "",
+    "name": "FOSSGIS 2025",
+    "city": "Munster",
+    "country": "ドイツ",
+    "description": "3/26-29",
+    "confidence": "confirmed",
+    "source_url": "https://fossgis-konferenz.de/liste.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.6261,
+     51.9607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 216,
+   "properties": {
+    "id": 216,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2025,
+    "when": "",
+    "name": "Exploration of beta diversity across altitude gradients in an Alpine region in Trentino using FOSS4G",
+    "city": "Trento",
+    "country": "イタリア",
+    "description": "Exploration of beta diversity across altitude gradients in an Alpine region in Trentino using FOSS4G（筆頭著者: Francesco Geri、掲載: ISPRS Archives XLVIII-4/W13、所属: University of Trento (DICAM)）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W13-2025-119-2025"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.1217,
+     46.0748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 217,
+   "properties": {
+    "id": 217,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2025,
+    "when": "",
+    "name": "Preface: Proceedings of the FOSS4G Europe 2025 Academic Track – Mostar",
+    "city": "Ispra",
+    "country": "イタリア",
+    "description": "Preface: Proceedings of the FOSS4G Europe 2025 Academic Track – Mostar（筆頭著者: Marco Minghini、掲載: ISPRS Archives XLVIII-4/W13、所属: European Commission, Joint Research Centre）",
+    "confidence": "confirmed",
+    "source_url": "https://doi.org/10.5194/isprs-archives-XLVIII-4-W13-2025-1-2025"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.6167,
+     45.8167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 218,
+   "properties": {
+    "id": 218,
+    "category": "paper",
+    "category_ja": "学術論文・出版物",
+    "year": 2025,
+    "when": "",
+    "name": "シンポジウム「文化財情報とFOSS4Gの活用」開催報告",
+    "city": "Kyoto",
+    "country": "日本",
+    "description": "シンポジウム「文化財情報とFOSS4Gの活用」開催報告（筆頭著者: 武内樹治、掲載: GIS-理論と応用 33(2)、所属: 所属記載なし（要確認））",
+    "confidence": "unverified",
+    "source_url": "https://doi.org/10.5638/thagis.33.72"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.7681,
+     35.0116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 219,
+   "properties": {
+    "id": 219,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G Europe 2025",
+    "city": "Mostar",
+    "country": "ボスニア・ヘルツェゴビナ",
+    "description": "Academic Track は ISPRS Archives XLVIII-4/W13",
+    "confidence": "confirmed",
+    "source_url": "https://europe.foss4g.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.8078,
+     43.3438
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 220,
+   "properties": {
+    "id": 220,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2025,
+    "when": "",
+    "name": "FOSS4G NA 2025",
+    "city": "Reston",
+    "country": "アメリカ",
+    "description": "11/3-5",
+    "confidence": "confirmed",
+    "source_url": "https://www.foss4gna.org/foss4gna-2025"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.357,
+     38.9586
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 221,
+   "properties": {
+    "id": 221,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G 2026（世界大会）",
+    "city": "Hiroshima",
+    "country": "日本",
+    "description": "OSGeo 公式の FOSS4G 世界大会。8/30-31 ワークショップ、9/1-3 本会議（広島国際会議場）、9/4-5 コミュニティスプリント。日本初の世界大会",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.4553,
+     34.3853
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 222,
+   "properties": {
+    "id": 222,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G Hokkaido 2026",
+    "city": "Sapporo",
+    "country": "日本",
+    "description": "開催予定",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.hokkaido.jp/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.3544,
+     43.0621
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 223,
+   "properties": {
+    "id": 223,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G-IT / OSMit 2026",
+    "city": "Trento",
+    "country": "イタリア",
+    "description": "開催予定",
+    "confidence": "confirmed",
+    "source_url": "https://www.dicam.unitn.it/news/754"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.1217,
+     46.0748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 224,
+   "properties": {
+    "id": 224,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G-NL 2026",
+    "city": "Groningen",
+    "country": "オランダ",
+    "description": "7/8-9（開催予定）",
+    "confidence": "confirmed",
+    "source_url": "https://geoinformatienederland.nl/agenda/foss4gnl-2026"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.5665,
+     53.2194
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 225,
+   "properties": {
+    "id": 225,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G:UK 2026",
+    "city": "Leeds",
+    "country": "イギリス",
+    "description": "開催予定",
+    "confidence": "confirmed",
+    "source_url": "https://uk.osgeo.org/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.5491,
+     53.8008
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 226,
+   "properties": {
+    "id": 226,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2026,
+    "when": "",
+    "name": "FOSSGIS 2026",
+    "city": "Gottingen",
+    "country": "ドイツ",
+    "description": "3/25-28",
+    "confidence": "confirmed",
+    "source_url": "https://fossgis-konferenz.de/liste.html"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.9158,
+     51.5413
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 227,
+   "properties": {
+    "id": 227,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G Europe 2026",
+    "city": "Timisoara",
+    "country": "ルーマニア",
+    "description": "開催予定",
+    "confidence": "confirmed",
+    "source_url": "https://2026.europe.foss4g.org/about/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.2087,
+     45.7489
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 228,
+   "properties": {
+    "id": 228,
+    "category": "regional",
+    "category_ja": "地域大会",
+    "year": 2026,
+    "when": "",
+    "name": "FOSS4G-Asia 2026",
+    "city": "Nashik",
+    "country": "インド",
+    "description": "Nashik Engineering Cluster（開催予定）",
+    "confidence": "confirmed",
+    "source_url": "https://foss4g.asia/2026/foss4g-asia/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7898,
+     19.9975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 229,
+   "properties": {
+    "id": 229,
+    "category": "global",
+    "category_ja": "世界大会",
+    "year": 2027,
+    "when": "",
+    "name": "FOSS4G 2027（世界大会）",
+    "city": "Bristol",
+    "country": "イギリス",
+    "description": "OSGeo 公式の FOSS4G 世界大会。開催予定【予定】",
+    "confidence": "confirmed",
+    "source_url": "https://www.osgeo.org/initiatives/foss4g/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5879,
+     51.4545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 230,
+   "properties": {
+    "id": 230,
+    "category": "national",
+    "category_ja": "国別・国内イベント",
+    "year": 2027,
+    "when": "",
+    "name": "FOSS4G India 2027",
+    "city": "New Delhi",
+    "country": "インド",
+    "description": "2027年からの年次開催を宣言（開催都市は要確認）",
+    "confidence": "unverified",
+    "source_url": "https://foss4g.in/"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.209,
+     28.6139
+    ]
+   }
+  }
+ ]
+}

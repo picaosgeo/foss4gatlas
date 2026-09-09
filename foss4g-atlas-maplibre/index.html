@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FOSS4G Atlas — MapLibre GL JS</title>
+<meta name="description" content="「FOSS4G」という語が使われた時期・場所・内容の位置情報付きリストを MapLibre GL JS で地図化したもの。">
+
+<!-- MapLibre GL JS。バージョンは固定しておく（更新する場合は js/css 両方を揃える） -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<!-- cdnjs を使う場合:
+     https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.css
+     https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.js -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500;600&display=swap">
+
+<link rel="stylesheet" href="foss4g-atlas.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">
+      <span>EPSG:4326 / WGS 84</span><span>·</span>
+      <span>MapLibre GL JS</span><span>·</span>
+      <b id="ebn">loading…</b>
+    </div>
+    <h1>FOSS4G Atlas
+      <span class="sub">「FOSS4G」という語は2004年、大阪市立大学の Venkatesh Raghavan らが GRASS/MapServer 国際化プロジェクトの中で考案しました。以来この語は、世界大会・地域大会・国内イベント・査読論文・政府施策・大学カリキュラムへと広がっています。<code>data/foss4g_usage.geojson</code> を読み込み、その使用地点を年・分類・内容とともに地図化します。</span>
+    </h1>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <!-- ================= 地図 ================= -->
+  <div class="mapcard" id="mapcard">
+    <div class="maptop">
+      <div class="legend" id="legend"><!-- JS が生成 --></div>
+      <div class="toolbar">
+        <div class="seg" id="views"><!-- JS が生成 --></div>
+        <div class="seg" id="theme" role="group" aria-label="テーマ">
+          <button type="button" data-theme="auto"  aria-pressed="true">自動</button>
+          <button type="button" data-theme="light" aria-pressed="false">明</button>
+          <button type="button" data-theme="dark"  aria-pressed="false">暗</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mapbox" id="mapbox">
+      <div id="map" role="application" aria-label="FOSS4Gが使用された地点の地図"></div>
+      <div class="loading" id="loading">LOADING GEOJSON…</div>
+      <div class="err" id="err" hidden></div>
+      <div class="hint">円の大きさ = その都市・分類での件数 &nbsp;·&nbsp; 円をクリックすると一覧を絞り込み</div>
+      <div class="tip" id="tip"></div>
+    </div>
+  </div>
+
+  <!-- ================= 年別グラフ ================= -->
+  <div class="tl">
+    <div class="tlhead">
+      <h2>年ごとの使用件数</h2>
+      <p>バーをクリックするとその年だけに絞り込みます（もう一度クリックで解除）</p>
+    </div>
+    <div class="bars" id="bars"></div>
+    <div class="yraxis" id="yraxis"></div>
+  </div>
+
+  <!-- ================= 一覧表 ================= -->
+  <div class="tbl" id="table-card">
+    <div class="tblhead">
+      <h2>使用記録一覧</h2>
+      <input class="search" id="q" type="search" placeholder="名称・都市・国・内容を検索" aria-label="検索">
+      <span class="meta" id="cnt"></span>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead id="thead"><tr>
+          <th data-col="year">年 <span class="ar"></span></th>
+          <th data-col="category">分類 <span class="ar"></span></th>
+          <th data-col="name">名称と内容 <span class="ar"></span></th>
+          <th data-col="place">場所 <span class="ar"></span></th>
+          <th>緯度 / 経度</th>
+          <th>出典</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="empty" id="empty" hidden>条件に一致する記録がありません。</div>
+    </div>
+  </div>
+
+  <!-- ================= 注記 ================= -->
+  <div class="notes">
+    <section>
+      <h3>語の起源について</h3>
+      <p>OSGeo Wiki は「2004年初頭、GRASS と MapServer の国際化に取り組む研究グループが <i>Free and Open Source Software for Geoinformatics</i> の略語として考案した」と記述し、2004年3月の大阪市立大学紀要論文を初出文献として挙げています。Raghavan 本人も2007年の OSGeo メーリングリストで考案者であると述べています。</p>
+      <p>一方、同年9月のバンコク会議の当時の正式名称は <i>Free/Libre and Open Source Software for Geoinformatics: GIS-GRASS Users Conference</i> であり、会議名として FOSS4G が使われたのは2006年ローザンヌ以降です。バンコクを「第1回」とするのは後付けの整理です。</p>
+    </section>
+    <section>
+      <h3>データ構造</h3>
+      <p>各 Feature は Point ジオメトリと次の properties を持ちます。<code>category</code>（origin / global / regional / national / paper / product）、<code>year</code>、<code>when</code>、<code>name</code>、<code>city</code>、<code>country</code>、<code>description</code>、<code>confidence</code>（confirmed / unverified）、<code>source_url</code>。</p>
+      <p>描画側は <code>city</code> × <code>country</code> × <code>category</code> で集約して <code>count</code> を持つ点に変換し、分類ごとに別レイヤーへ振り分けて <code>circle-translate</code> で放射状にずらしています。</p>
+    </section>
+    <section>
+      <h3>データの限界</h3>
+      <p><span class="flag">要確認</span> の付いた記録は、開催都市・所属都市・開始年のいずれかが一次情報で確定できていないものです。座標は都市の代表点であり、会場や機関の正確な位置ではありません。</p>
+      <p>網羅を主張するものではなく、公開情報から確認できた範囲の記録です。陸地ポリゴンは Natural Earth 110m（public domain）を簡略化したものです。</p>
+    </section>
+  </div>
+
+</div>
+
+<script src="foss4g-atlas.js"></script>
+</body>
+</html>
